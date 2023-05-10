@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "645b94dc42ebd8a1942ce9d9"
+  },
+  "DEPTNO": 10,
+  "DNAME": "ACCOUNTING",
+  "LOC": "NEW YORK"
+},{
+  "_id": {
+    "$oid": "645b94dc42ebd8a1942ce9da"
+  },
+  "DEPTNO": 20,
+  "DNAME": "RESEARCH",
+  "LOC": "DALLAS"
+},{
+  "_id": {
+    "$oid": "645b94dc42ebd8a1942ce9db"
+  },
+  "DEPTNO": 30,
+  "DNAME": "SALES",
+  "LOC": "CHICAGO"
+},{
+  "_id": {
+    "$oid": "645b94dc42ebd8a1942ce9dc"
+  },
+  "DEPTNO": 40,
+  "DNAME": "OPERATIONS",
+  "LOC": "BOSTON"
+}]

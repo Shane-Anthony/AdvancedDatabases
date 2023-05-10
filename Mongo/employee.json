@@ -1,0 +1,293 @@
+[{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3372"
+  },
+  "EMPNO": 7369,
+  "ENAME": "SMITH",
+  "JOB": "CLERK",
+  "MGR": 7902,
+  "HIREDATE": {
+    "$date": "1980-12-17T00:00:00.000Z"
+  },
+  "SAL": 800,
+  "COMM": null,
+  "DEPTNO": 20,
+  "works_on": [
+    {
+      "ProjectNo": 1,
+      "ProjectName": "Project X",
+      "Hours": 8
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3373"
+  },
+  "EMPNO": 7499,
+  "ENAME": "ALLEN",
+  "JOB": "SALESMAN",
+  "MGR": 7698,
+  "HIREDATE": {
+    "$date": "1981-02-20T00:00:00.000Z"
+  },
+  "SAL": 1600,
+  "COMM": 300,
+  "DEPTNO": 30,
+  "works_on": [
+    {
+      "ProjectNo": 2,
+      "ProjectName": "Project Y",
+      "Hours": 10
+    },
+    {
+      "ProjectNo": 3,
+      "ProjectName": "Project Z",
+      "Hours": 30
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3374"
+  },
+  "EMPNO": 7521,
+  "ENAME": "WARD",
+  "JOB": "SALESMAN",
+  "MGR": 7698,
+  "HIREDATE": {
+    "$date": "1981-02-22T00:00:00.000Z"
+  },
+  "SAL": 1250,
+  "COMM": 500,
+  "DEPTNO": 30,
+  "works_on": [
+    {
+      "ProjectNo": 2,
+      "ProjectName": "Project Y",
+      "Hours": 10
+    },
+    {
+      "ProjectNo": 3,
+      "ProjectName": "Project Z",
+      "Hours": 40
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3375"
+  },
+  "EMPNO": 7566,
+  "ENAME": "JONES",
+  "JOB": "MANAGER",
+  "MGR": 7839,
+  "HIREDATE": {
+    "$date": "1981-04-02T00:00:00.000Z"
+  },
+  "SAL": 2975,
+  "COMM": null,
+  "DEPTNO": 20,
+  "works_on": [
+    {
+      "ProjectNo": 1,
+      "ProjectName": "Project X",
+      "Hours": 4
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3376"
+  },
+  "EMPNO": 7654,
+  "ENAME": "MARTIN",
+  "JOB": "SALESMAN",
+  "MGR": 7698,
+  "HIREDATE": {
+    "$date": "1981-09-28T00:00:00.000Z"
+  },
+  "SAL": 1250,
+  "COMM": 1400,
+  "DEPTNO": 30,
+  "works_on": [
+    {
+      "ProjectNo": 3,
+      "ProjectName": "Project Z",
+      "Hours": 20
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3377"
+  },
+  "EMPNO": 7698,
+  "ENAME": "BLAKE",
+  "JOB": "MANAGER",
+  "MGR": 7839,
+  "HIREDATE": {
+    "$date": "1981-05-01T00:00:00.000Z"
+  },
+  "SAL": 2850,
+  "COMM": null,
+  "DEPTNO": 30,
+  "works_on": [
+    {
+      "ProjectNo": 1,
+      "ProjectName": "Project X",
+      "Hours": 12
+    },
+    {
+      "ProjectNo": 2,
+      "ProjectName": "Project Y",
+      "Hours": 20
+    },
+    {
+      "ProjectNo": 3,
+      "ProjectName": "Project Z",
+      "Hours": 5
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3378"
+  },
+  "EMPNO": 7782,
+  "ENAME": "CLARK",
+  "JOB": "MANAGER",
+  "MGR": 7839,
+  "HIREDATE": {
+    "$date": "1981-06-09T00:00:00.000Z"
+  },
+  "SAL": 2450,
+  "COMM": null,
+  "DEPTNO": 10,
+  "works_on": [
+    {
+      "ProjectNo": 1,
+      "ProjectName": "Project X",
+      "Hours": 8
+    },
+    {
+      "ProjectNo": 2,
+      "ProjectName": "Project Y",
+      "Hours": 10
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef3379"
+  },
+  "EMPNO": 7839,
+  "ENAME": "KING",
+  "JOB": "PRESIDENT",
+  "MGR": null,
+  "HIREDATE": {
+    "$date": "1981-11-17T00:00:00.000Z"
+  },
+  "SAL": 5000,
+  "COMM": null,
+  "DEPTNO": 10,
+  "works_on": [
+    {
+      "ProjectNo": 1,
+      "ProjectName": "Project X",
+      "Hours": 24
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef337a"
+  },
+  "EMPNO": 7844,
+  "ENAME": "TURNER",
+  "JOB": "SALESMAN",
+  "MGR": 7698,
+  "HIREDATE": {
+    "$date": "1981-09-08T00:00:00.000Z"
+  },
+  "SAL": 1500,
+  "COMM": 0,
+  "DEPTNO": 30,
+  "works_on": [
+    {
+      "ProjectNo": 2,
+      "ProjectName": "Project Y",
+      "Hours": 10
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef337b"
+  },
+  "EMPNO": 7876,
+  "ENAME": "ADAMS",
+  "JOB": "CLERK",
+  "MGR": 7788,
+  "HIREDATE": {
+    "$date": "1987-09-23T00:00:00.000Z"
+  },
+  "SAL": 1100,
+  "COMM": null,
+  "DEPTNO": 20,
+  "works_on": []
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef337c"
+  },
+  "EMPNO": 7900,
+  "ENAME": "JAMES",
+  "JOB": "CLERK",
+  "MGR": 7698,
+  "HIREDATE": {
+    "$date": "1981-12-03T00:00:00.000Z"
+  },
+  "SAL": 950,
+  "COMM": null,
+  "DEPTNO": 30,
+  "works_on": [
+    {
+      "ProjectNo": 2,
+      "ProjectName": "Project Y",
+      "Hours": 5
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef337d"
+  },
+  "EMPNO": 7902,
+  "ENAME": "FORD",
+  "JOB": "ANALYST",
+  "MGR": 7566,
+  "HIREDATE": {
+    "$date": "1981-12-03T00:00:00.000Z"
+  },
+  "SAL": 3000,
+  "COMM": null,
+  "DEPTNO": 20,
+  "works_on": [
+    {
+      "ProjectNo": 1,
+      "ProjectName": "Project X",
+      "Hours": 40
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "645b9b651375e588e7ef337e"
+  },
+  "EMPNO": 7934,
+  "ENAME": "MILLER",
+  "JOB": "CLERK",
+  "MGR": 7782,
+  "HIREDATE": {
+    "$date": "1982-01-23T00:00:00.000Z"
+  },
+  "SAL": 1300,
+  "COMM": null,
+  "DEPTNO": 10,
+  "works_on": [
+    {
+      "ProjectNo": 2,
+      "ProjectName": "Project Y",
+      "Hours": 10
+    }
+  ]
+}]
