@@ -2,52 +2,52 @@
 
 ### Shane Anthony (sa743) & Michael Adelodun (ma617) 
 ----
-### Background
+## Background
 
 WIP
 
 ----
-### Implementation
-#### Part 1
-##### MySQL Database
+## Implementation
+### Part 1
+### MySQL Database
 
 WIP
 
-##### PHP Frontend 
+### PHP Frontend 
 
 WIP
 
-#### Part 2
-##### MongoDB Database
+### Part 2
+### MongoDB Database
 
 WIP
 
-##### PHP Frontend
-
-WIP
-
-----
-### Results
+### PHP Frontend
 
 WIP
 
 ----
-### Conclusion
+## Results
 
 WIP
 
 ----
-### Tasks
+## Conclusion
 
 WIP
 
 ----
-### Video
+## Tasks
 
 WIP
 
 ----
-### Link to Repo
+## Video
+
+WIP
+
+----
+## Link to Repo
 
 https://github.com/Shane-Anthony/AdvancedDatabases
 
