@@ -11,11 +11,11 @@ The goal of this project is to develop a PHP/MySQL application that extends the 
 ### Part 1
 ### MySQL Database
 
-WIP
+Before implementing the MySQL database, we prepared the database schema by normalizing it. Normalization is an important process that helps reduce redundancy and inconsistencies in the data, making it easier to manage and maintain. Once the schema was normalized, we extended it with three new tables that we designed ourselves. These tables included a 'project' table, a 'supervision' table, and a 'works_on' table, and they were designed to capture additional data that we felt was relevant to our application. We then created the corresponding foreign keys to ensure data integrity and populated the tables with relevant data. By extending the schema with new tables, we were able to capture a more comprehensive view of the data and provide more insights into our application. Overall, the backend implementation of the MySQL database was a success, and it allowed us to create a robust and comprehensive database for our application.
 
 ### PHP Frontend 
 
-WIP
+In the frontend of our PHP application, we had to connect to the MySQL database in the backend. To achieve this, we used XAMPP and Apache to create a local web server environment that could run our PHP scripts. Once we were connected to the database, we implemented pages that allowed us to update the tables by adding new employees and departments. These pages were designed to capture all the relevant information required for each table and insert it into the database. Additionally, we implemented pages that displayed the employee and department tables, allowing us to view all the records stored in the database. Finally, we executed and displayed the results of three SQL queries that we designed ourselves. These queries included finding the department with the highest average salary, finding employees hired before 1982, and finding the average salary of all employees. Once implemented, the frontend of our PHP application allowed us to interact with the database and gain insights into the data stored within it.
 
 ### Part 2
 ### MongoDB Database
