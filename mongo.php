@@ -47,7 +47,7 @@
 	<h2>Department Table</h2>
 	<?php
 		$mongoClient = new MongoDB\Client("mongodb://localhost:27017");
-		$departmentCollection = $mongoClient->test->Department;
+		$departmentCollection = $mongoClient->Department;
 		$departments = $departmentCollection->find();
 		echo "<table>";
 		echo "<tr><th>Department Name</th><th>Location</th></tr>";
