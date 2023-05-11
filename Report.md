@@ -39,7 +39,9 @@ WIP
 ----
 ## Tasks
 
-WIP
+In this task section, it is worth mentioning that our team consisted of Shane and Michael, who collaborated to complete the project. For task 1, Shane worked on the front end, while Michael worked on the back end. For task 2, roles were reversed, with Shane working on the back end, and Michael working on the front end.
+
+It is also worth noting that our team decided to work together on the report and video aspects of the project. By collaborating, we were able to leverage each other's strengths and skills to deliver a high-quality project in a timely manner.
 
 ----
 ## Video

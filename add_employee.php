@@ -1,42 +1,42 @@
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "sql_database";
+	$servername = "localhost";
+	$username = "username";
+	$password = "password";
+	$dbname = "sql_database";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname, 3307);
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname, 3307);
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-// Process form submission
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	$ename = $_POST["ename"];
-	$job = $_POST["job"];
-	$mgr = $_POST["mgr"];
-	$hiredate = $_POST["hiredate"];
-	$sal = $_POST["sal"];
-	$comm = $_POST["comm"];
-	$deptno = $_POST["deptno"];
-  
-	// Prepare SQL statement
-	$stmt = $conn->prepare("INSERT INTO employee (ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO) VALUES (?, ?, ?, ?, ?, ?, ?)");
-	$stmt->bind_param("ssisddi", $ename, $job, $mgr, $hiredate, $sal, $comm, $deptno);
-  
-	// Execute statement
-	if ($stmt->execute() === TRUE) {
-	  echo "New employee added successfully";
-	} else {
-	  echo "Error: " . $stmt->error;
+	// Check connection
+	if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);
 	}
-  
-	$stmt->close();
-  }
- 
-$conn->close();
+
+	// Process form submission
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		$ename = $_POST["ename"];
+		$job = $_POST["job"];
+		$mgr = $_POST["mgr"];
+		$hiredate = $_POST["hiredate"];
+		$sal = $_POST["sal"];
+		$comm = $_POST["comm"];
+		$deptno = $_POST["deptno"];
+	
+		// Prepare SQL statement
+		$stmt = $conn->prepare("INSERT INTO employee (ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO) VALUES (?, ?, ?, ?, ?, ?, ?)");
+		$stmt->bind_param("ssisddi", $ename, $job, $mgr, $hiredate, $sal, $comm, $deptno);
+	
+		// Execute statement
+		if ($stmt->execute() === TRUE) {
+		echo "New employee added successfully";
+		} else {
+		echo "Error: " . $stmt->error;
+		}
+	
+		$stmt->close();
+	}
+	
+	$conn->close();
 ?>
 
 <html>
