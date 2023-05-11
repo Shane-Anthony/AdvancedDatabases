@@ -20,28 +20,26 @@ In the frontend of our PHP application, we had to connect to the MySQL database 
 ### Part 2
 ### MongoDB Database
 
-WIP
+To migrate our MySQL database to a MongoDB document database, we used denormalization techniques. We reduced the number of tables and simplified the schema so that we only had the employee and department tables. Instead of combining the two tables into a single document, we decided to keep them separate to ensure that departments could be kept unique. We then designed a JSON document that represented the data stored in the employee and department tables. This document included all the relevant fields and captured the necessary relationships between the two tables. We then implemented the new database on MongoDB, using the JSON document as a guide. This involved creating collections for the employee and department tables and populating them with the data stored in the MySQL database. Overall, our migration choices allowed us to create a more efficient and streamlined database on MongoDB, while still preserving the integrity of the data.
 
 ### PHP Frontend
 
-WIP
+In the front end (PHP), we updated our PHP page to connect to the new MongoDB database. We made sure that we could execute and display the results of 2 Mongodb/MQL queries. To achieve this, we modified our existing PHP page to use the MongoDB PHP Library. We then created two new queries using the aggregate method that MongoDB provides. The first query finds the number of employees in each department and displays the results as an unordered list. The second query finds the number of projects that each employee works on and displays the results as an unordered list. The results of both queries are displayed on the same page as the employee and department tables. The new queries are executed by using the aggregate method of the MongoDB PHP Library, passing in an array of pipeline stages that define the query. The results are then iterated over and displayed using PHP's echo statement, which outputs HTML.
 
 ----
 ## Results
 
-WIP
+The migration from MySQL to MongoDB involved some changes to the database schema and the backend and frontend implementations. With the MySQL database, we had to prepare the database by normalizing it, but with the MongoDB database, we denormalized the data to produce a JSON document that is more efficient for querying. We migrated the MySQL data to MongoDB by creating new collections for the employee and department tables and inserting the data into the appropriate collections. In the frontend, we updated the PHP page to connect to the new MongoDB database and executed two MQL queries to display the number of employees by department and the number of projects by employee. Overall, the migration was successful and we were able to leverage MongoDB's capabilities to create a more efficient and effective database for our needs.
 
 ----
 ## Conclusion
 
-WIP
+Based on our implementation, we can draw some conclusions regarding working with SQL and NoSQL databases. Firstly, it is essential to design and normalize the database carefully, especially when working with SQL databases, as this helps avoid data redundancy and inconsistencies. However, this process can be time-consuming and challenging to maintain when scaling up. Secondly, NoSQL databases, such as MongoDB, offer flexibility and scalability, making them ideal for handling large and complex data sets. Additionally, using denormalization techniques can further enhance performance, but it should be done carefully to avoid data inconsistencies. Finally, connecting to databases and executing queries in both SQL and NoSQL databases requires programming skills, and we need to choose the appropriate tools and libraries to ensure smooth integration. Overall, it is important to understand the strengths and weaknesses of both SQL and NoSQL databases and choose the appropriate one based on the application's requirements.
 
 ----
 ## Tasks
 
-In this task section, it is worth mentioning that our team consisted of Shane and Michael, who collaborated to complete the project. For task 1, Shane worked on the front end, while Michael worked on the back end. For task 2 Shane worked on both back end and front end.
-
-It is also worth noting that our team decided to work together on the report and video aspects of the project. By collaborating, we were able to leverage each other's strengths and skills to deliver a high-quality project in a timely manner.
+In this task section, it is worth mentioning that our team consisted of Shane and Michael, who collaborated to complete the project. For task 1, Shane worked on the front end, while Michael worked on the back end. For task 2 Shane worked on both back end and front end. Shane also wrote the report and produced the video.
 
 ----
 ## Video
