@@ -69,6 +69,7 @@
 			<a href="add_employee.php">Add Employee</a>
 			<a href="add_department.php">Add Department</a>
 			<a href="queries.php">Queries</a>
+			<a href="mongo.php">Mongo</a>
 		</nav>
 	<h2>Add Employee</h2>
 	<form action="add_employee.php" method="POST">

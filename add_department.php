@@ -62,6 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a href="add_employee.php">Add Employee</a>
             <a href="add_department.php">Add Department</a>
             <a href="queries.php">Queries</a>
+            <a href="mongo.php">Mongo</a>
         </nav>
     <h1>Add Department</h1>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">

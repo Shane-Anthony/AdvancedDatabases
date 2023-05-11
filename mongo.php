@@ -42,6 +42,7 @@
 		<a href="add_employee.php">Add Employee</a>
 		<a href="add_department.php">Add Department</a>
 		<a href="queries.php">Queries</a>
+		<a href="mongo.php">Mongo</a>
 	</nav>
 
 	<h2>Department Table</h2>
@@ -59,7 +60,7 @@
 
 	<h2>Employee Table</h2>
 	<?php
-		$employeeCollection = $mongoClient->test->Employee;
+		$employeeCollection = $mongoClient->Employee;
 		$employees = $employeeCollection->find();
 		echo "<table>";
 		echo "<tr><th>Name</th><th>Department</th><th>Salary</th></tr>";
